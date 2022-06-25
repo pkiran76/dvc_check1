@@ -29,7 +29,7 @@ stages:
       size: 587
     params:
       params.yaml:
-        training.num_rows: 10
+        training.num_rows: 15
     outs:
     - path: output/training
       md5: 35348c8420d1c64becc806f1945b22b7.dir
