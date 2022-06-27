@@ -11,27 +11,27 @@ stages:
       size: 4049
     params:
       params.yaml:
-        filter.value: 20
+        filter.value: 5
     outs:
     - path: output/filter
-      md5: 1837fb613728fce20b06d9eed0d5dda9.dir
-      size: 262
+      md5: c4043bf509bfa49d1366dd1ca0069c11.dir
+      size: 1109
       nfiles: 1
   training:
     cmd: python training.py
     deps:
     - path: output/filter
-      md5: 1837fb613728fce20b06d9eed0d5dda9.dir
-      size: 262
+      md5: c4043bf509bfa49d1366dd1ca0069c11.dir
+      size: 1109
       nfiles: 1
     - path: training.py
       md5: 4dae74ab3bd8d1f9ee9437e5a6eaeabd
       size: 587
     params:
       params.yaml:
-        training.num_rows: 15
+        training.num_rows: 20
     outs:
     - path: output/training
-      md5: 35348c8420d1c64becc806f1945b22b7.dir
-      size: 17
+      md5: 0161b81816ff00665940b17e881838e1.dir
+      size: 18
       nfiles: 1
