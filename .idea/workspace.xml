@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3475e5b-7189-41ac-a0de-f37a58a98952" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflow/ci-cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflow/ci-cd.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitlab-ci" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -141,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656330458974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="exp05">
+      <created>1656331035658</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656331035658</updated>
+    </task>
+    <task id="LOCAL-00010" summary="exp06">
+      <created>1656331209773</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656331209773</updated>
+    </task>
+    <task id="LOCAL-00011" summary="exp07">
+      <created>1656331311625</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656331311625</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -162,13 +185,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exp04" />
-    <option name="LAST_COMMIT_MESSAGE" value="exp04" />
+    <MESSAGE value="exp05" />
+    <MESSAGE value="exp06" />
+    <MESSAGE value="exp07" />
+    <option name="LAST_COMMIT_MESSAGE" value="exp07" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1656327951599">
+    <state x="444" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1656335385580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="444" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1656327951599" />
+    <state x="444" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1656335385580" />
     <state width="1345" height="270" key="GridCell.Tab.0.bottom" timestamp="1656156813063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -185,13 +211,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="270" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1656156813063" />
+    <state x="422" y="66" key="RollbackChangesDialog" timestamp="1656331087694">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="422" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1656331087694" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1656155856933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1656155856933" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1656330471386">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1656331314571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1656330471386" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1656331314571" />
   </component>
 </project>
