@@ -1,0 +1,19 @@
+stages:
+    preprocess:
+      cmd: python filter.py
+      deps:
+        - weather-data/2006-04-10.csv
+        - filter.py
+      params:
+        - filter.value
+      outs:
+        - output/filter
+    training:
+      cmd: python training.py
+      deps:
+        - output/filter
+        - training.py
+      params:
+        - training.num_rows
+      outs:
+        - output/training
